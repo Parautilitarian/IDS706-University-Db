@@ -24,8 +24,26 @@ To explore a relational database using SQLite, perform analysis, and practice CR
 - Removed all universities in 2015 with score < 45.
 - ![Insertion result screenshot](queries_results/delete_low_score.png)
 
+## Basic Analyis (after CRUD operations)
+
+#### Total number of unique institutions in the dataset 1,645
+- ![Insertion result screenshot](queries_results/record_count.png)
+
+#### Basic statistics on world ranking and score
+- ![Insertion result screenshot](queries_results/score_range.png)
+- World rankings are 1 to 1000
+- Scores range from 43.36 to 100, with an average around 48.96
+
+#### Total universities in rankings in each year
+- ![Insertion result screenshot](queries_results/yearly_count.png)
+
+#### Count of universities ranked and average score by country
+- ![Insertion result screenshot](queries_results/by_country.png)
+- USA has the most universities in the rankings (365) and a high average score (53).
+
+
 ## Files Included
-- `queries/connect.sql`
+- `queries/basic_analysis.sql`
 - `queries/insert_university.sql`
 - `queries/japan_top_200.sql`
 - `queries/update_oxford_score.sql`
@@ -34,4 +52,4 @@ To explore a relational database using SQLite, perform analysis, and practice CR
 
 ## Tools
 - SQLite3 CLI
-- VS Code (Windows)
+- VS Code

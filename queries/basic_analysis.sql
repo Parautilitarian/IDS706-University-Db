@@ -31,7 +31,7 @@ ORDER BY year;
 -- while 1001 universities were ranked in 2014 and 444 in 2015.
 
 
--- Average by country
+-- Average and count by country
 SELECT
     country,
     COUNT(*) AS num_universities,
